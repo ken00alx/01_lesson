@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="Author: kenny" content="Edwin">
+<meta name="Description" content="Table Creation">
+
+<title>Creating Table</title>
+<link rel="icon" href="img/table.png" type="image/x-icon">
+        <link rel="stylesheet" href="table.css" type="text/css">
+
+</head>
+<body>
+
+    
+
+
+    <header>
+    <h2>STUDENT DATA RECORD</h2>
+    <img src="img/data-scientist-1024x576.webp" alt="web" title="data analist" width="550" height="450">
+        <nav aria-label="primary-navigation">
+            <ul>
+                <li>
+                    <a href="#table">Creating Table</a>
+                </li>
+                <li>
+                    <a href="#country">Visiting Country</a>
+                </li>
+                <li>
+                    <a href="#contact">contact me</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+<fieldset>
+    <table>
+    <tr>
+      <th colspan="2">Name</th>
+      <th>Age</th>
+      <th>Sex</th>
+      <th>Dept</th>
+      
+    </tr>
+    <tr>
+      <td>Jill</td>
+      <td>Smith</td>
+      <td>50</td>
+      <td>Male</td>
+      <td>Accountant</td>
+    </tr>
+    <tr>
+      <td>Eve</td>
+      <td>Jackson</td>
+      <td>45</td>
+      <td>Female</td>
+      <td>Business Admin</td>
+    </tr>
+  </table> 
+<p>
+    <table>
+        <tr>
+          <th colspan="2">Name</th>
+          <th>Age</th>
+        </tr>
+        <tr>
+          <td>Jill</td>
+          <td>Smith</td>
+          <td>43</td>
+        </tr>
+        <tr>
+          <td>Eve</td>
+          <td>Jackson</td>
+          <td>57</td>
+        </tr>
+      </table></span>
+    </fieldset>
+  </p>
+  <hr>
+  <article id="contact">
+    <h2> Contact Me</h2>
+    <p>
+        I'd really like to hear from you
+    </p>
+
+    <form action="https://httpbin.org/get" method="get">
+
+        <fieldset>
+            <legend>Personal Info</INp></legend>
+        <p>
+        <label for="firstName">First Name:</label>
+        <input type="text" name="firstName" id="firstName" placeholder="First Name" autocomplete="on" required autofocus></p>
+        <p>
+        <label for="firstName">Last Name:</label>
+        <input type="text" name="lastName" id="lastName" placeholder="Last Name" autocomplete="on" required autofocus></p>
+        <p>
+        <label for="Password">Password:</label>
+        <input type="password" name="password" id="password" placeholder="password" autocomplete="off" required autofocus></p>
+        <p>
+        <label for="Phone">Phone:</label>
+        <input type="tel" name="password" id="password" placeholder="23412345875" autofocus/></p>
+        <p>
+        <label for="decade">Favorite Decade:</label>
+        <input type="number" name="decade" id="decade" min="1950" max="2023" step="10" value="1980"></p>
+
+        
+            <p>
+            <label for="coffee">Best Coffee:
+            </label>
+            <select name="coffee" id="coffee" multiple size="5">
+                <optgroup label="Coffees">
+                <option value="regular coffee">
+                    Regular Coffee</option>
+                <option value="Iced coffee">
+                    Iced Coffee</option>
+                </optgroup>
+                <optgroup label="Expresso Drinks">
+                <option value="Latte">
+                    Latte</option>
+                <option value="Cappuccino">
+                    Cappuccino</option>
+                <option value="Black Coffee">
+                    Black Coffee</option>
+                <option value="Americano">
+                    Americano</option></optgroup>
+                <option value="Other Coffee">
+                    Other Coffee</option>
+ 
+            </select>
+            </p> 
+           
+ <!-- 
+            <p>
+                <label for="coffee">Favorite Coffee:</label>
+                <input type="text" name="coffee"
+                id="coffee" list="coffee-list">
+                <datalist id="coffee-list">
+                    <option value="coffee">
+                    <option value="latte">
+                    <option value="espresso">
+                    <option value="cortado">
+                    <option value="black Coffee">
+                    <option value="americano">
+                    <option value="other">
+                </datalist>
+            </p>
+
+        </fieldset> --><br>
+        <fieldset>
+            <legend>
+                What is your Favorite food?
+            </legend>
+            <p>
+                <input type="radio" name="food" id="Semo & Vegetable" value="Semo & Vegetable">
+                <label for="Semo & Vegetable">Semo & Vegetable</label>
+            </p>
+            <p>
+                <input type="radio" name="food" id="Rice & Beans" value="Rice & Beans">
+                <label for="Rice & Beans">Rice & Beans</label>
+            </p>
+            <p>
+                <input type="radio" name="food" id="Pizza & Yorghurt" value="Pizza & Yorghurt">
+                <label for="Pizza & Yorghurt">Pizza & Yorghurt</label>
+            </p>
+        </fieldset>
+        <P>
+            <fieldset>
+                <legend>Do you have pets?</legend>
+        </P>        
+                <p>
+                <input type="checkbox" name="pets" id="dog" value="dog">
+                <label for="dog">Dog</label>
+            </p>
+                
+                <p>
+                <input type="checkbox" name="pets" id="cat" value="cat">
+                <label for="cat">Cat</label>
+            </p>
+                
+                <p>
+                <input type="checkbox" name="pets" id="bird" value="bird">
+                <label for="bird">Bird</label>
+            </p>
+                
+                <p>
+                <input type="checkbox" name="pets" id="otherPet" value="dog">
+                <label for="otherPet">other</label>
+            </p>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend> Send Me A Note</legend>
+                <label for="message">Your Message:</label>
+                <br>
+                <textarea name="message" id="message" cols="45" rows="5"
+                    placeholder="Type your message here"></textarea>
+            </fieldset>
+        <br>
+        <button type="submit">Submit</button>
+        <button type="submit" formaction="https://httpbin.org/post">Submit</button>
+        <button type="reset">Reset</button>
+        <br>
+
+    </form>
+  </article>
+
+
+<hr>
+<img src="img/manu.png" alt="manu" title="Manchester United" width="550" height="450" loading="lazy"></P>
+
+<hr>
+<footer>
+    &latail;&lt;&copy; &gtcc;
+    <a style="text-decoration: none;" href="http://localhost:52330/Objectives.html">Back to Objectives </a>
+</footer>
+
+</body>
+</html>
